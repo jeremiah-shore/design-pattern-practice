@@ -1,14 +1,14 @@
 package net.jeremiahshore.patterns.creational.singleton;
 
-public class UncloneableEagerSingleton {
+public class UncloneableSingleton {
 
-    private static UncloneableEagerSingleton INSTANCE = new UncloneableEagerSingleton();
+    private static UncloneableSingleton INSTANCE = new UncloneableSingleton();
 
-    private UncloneableEagerSingleton() {
+    private UncloneableSingleton() {
 
     }
 
-    public static UncloneableEagerSingleton getInstance() {
+    public static UncloneableSingleton getInstance() {
         return INSTANCE;
     }
 
